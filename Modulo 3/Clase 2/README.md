@@ -33,6 +33,7 @@ Un arreglo se puede ver como <br>
 
 ### Declaración
 <img src="img/array2.png" width="300">
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -44,6 +45,7 @@ int main(){
 	int datos[tam]; //Declarara un arreglo de tamaño tam de tipo entero
 }
 ```
+
 ### Como Usar Arreglos
 ```cpp
 #include <iostream>
