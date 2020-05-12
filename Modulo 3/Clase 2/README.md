@@ -28,11 +28,11 @@ __________
 ### Definición
 Los **arreglos** son una colección de variables del mismo tipo, accesibles a través de un índice. Llamaremos **casilla** a cualquiera de las variables individuales que componen un arreglo.
 Un arreglo se puede ver como <br>
-<img src="https://ibb.co/8jc6dpG" width="300">
+<img src="img/array1.png" width="300">
 >El **arreglo** de la imagen se llama **a** y agrupa a **8** variables(casillas), que comienzan a numerarse del 0 al 7
 
 ### Declaración
-<img src="https://ibb.co/ZXwnPWd" width="300">
+<img src="img/array2.png" width="300">
 
 ```cpp
 #include <iostream>
