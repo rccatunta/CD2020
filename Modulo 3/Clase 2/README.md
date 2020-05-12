@@ -63,7 +63,7 @@ int main(){
 ### Ejemplo Práctico
 El profesor Angel ha decidido medir las estaturas de sus estudiantes, el tiene *N* estudiantes en su curso. Al profesor Angel le gusta mucho la estadística y quiere saber cuantos de sus estudiantes tienen alturas por encima del promedio de todos los estudiantes. <br>
 **ENTRADA** <br>
-La primera linea de entrada contiene *N*  que representa el número de estudiantes que tiene el profesor Angel. Le siguen *N* numeros reales positivos que representan las estatutars de los estudiantes en metros. <br>
+La primera linea de entrada contiene *N*  que representa el número de estudiantes que tiene el profesor Angel. Le siguen *N* números reales positivos que representan las estaturas de los estudiantes en metros. <br>
 **SALIDA** <br>
 Debes imprimir un número entero que representa la cantidad de alumnos que tienen estaturas por encima del promedio.<br>
 **EJEMPLO**<br>
