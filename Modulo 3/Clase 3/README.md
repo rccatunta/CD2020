@@ -49,7 +49,7 @@ int main(){
 	N[4] = 9;
 	N[5] = -14;
 	N[6] = 10;
-	//Recorremos e imprimimos el vector
+	//Recorremos e imprimimos el arreglo
 	for(int i=0;i<7;i++){//El final siempre debe ser el tamaño del arreglo
 		cout<<"N["<<i<<"] = "<<N[i]<<endl;
 	}
@@ -68,46 +68,3 @@ Entrada  | Salida
 ------------- | -------------
 5 | 5 <br> 10 <br> 20 <br> 40 <br> 80 <br>
 1 | 1 <br> 2 <br> 4 <br> 8 <br> 16 <br>
-### Ejemplo de Clase 2 - Búsqueda en un Arreglo
-El siguiente programa lee un número *N* del usuario, posteriormente realiza el pedido de *N* números enteros diferentes, y los coloca en el arreglo. Finalmente busca el número 15 en el arreglo.
-```cpp
-#include <iostream>
-using namespace std;
-int main(){
-	int N;
-	cin>>N; //Pedimos N
-	int arreglo[N];// Creamos un arreglo de tamaño N
-	// Llenamos el arreglo con los datos que introduzca el usuario
-	for(int i=0;i<N;i++){ 
-		cin>>arreglo[i];
-	}
-	// Buscamos el número 15 dentro del arrego (La busqueda que se realiza en este codigo se llama busqueda lineal, existen otros tipos de busqueda)
-	bool encontrado = false;
-	for(int i=0;i<N;i++){
-		if(arreglo[i] == 15){
-			encontrado = true;
-		}
-	}
-	if(encontrado){
-		cout<<"El 15 esta en el arreglo"<<endl;
-	}
-	else{
-		cout<<"El 15 no esta en el arreglo"<<endl;
-	}
-}
-```
-### Ejercicio 2
-Leer un número *N* del usuario, luego crea un arreglo de tamaño *N*, pide al usuario *N* números. Luego pidele al usuario un número *x*. Finalmente indica si es que el número *x* esta en el arreglo que creaste junto al usuario.<br>
-**ENTRADA** <br>
-La primera linea de entrada contiene un número entero *N*, en la segunda linea siguen *N* números enteros que seran el contenido del arreglo. Finalmente en la tercera linea estará lee el número *x* que es el número que debes buscar. <br>
-**SALIDA** <br>
-Debes imprimir **SI** en caso de que *x* este en el arreglo y **NO** en caso contrario.<br>
-**EJEMPLO**<br>
-
-Entrada  | Salida
-------------- | -------------
-5 <br> 8 5 9 7 -1 <br> 9 | SI
-7 <br> 3 7 -9 7 -2 -1 10 <br> 0 | NO
-
-#### Pregunta de Razonamiento
-Crees que si en el problema anterior los primeros dos números de entrada fueran *N* y *x* ¿necesitarias utilizar un arreglo?
