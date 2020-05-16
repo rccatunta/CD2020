@@ -1,3 +1,4 @@
+# Clase 3
 ## Arreglos
 ### Definición
 Los **arreglos** son una colección de variables del mismo tipo, accesibles a través de un índice. Llamaremos **casilla** a cualquiera de las variables individuales que componen un arreglo.
@@ -34,7 +35,7 @@ int main(){
 }
 ```
 
-### Ejemplo de Clase 1 - Impresión y Recorrido de un Arreglo
+### Ejemplo 1 - Impresión y Recorrido de un Arreglo
 El siguiente programa realiza el recorrido e impresión de un arreglo de tamaño 7
 ```cpp
 #include <iostream>
@@ -56,15 +57,3 @@ int main(){
 }
 ```
 
-### Ejercicio 1
-Lee un número entero y realiza un programa que ponga el número leido en la primera posición del arreglo y en la siguiente posición ponga el doble que en la posición previa. El arreglo debe tener tamaño 5.<br>
-**ENTRADA** <br>
-La primera linea de entrada contiene un número entero *v* que sera el primer valor que se pondra en el arreglo. <br>
-**SALIDA** <br>
-Debes imprimir el contenido del arreglo<br>
-**EJEMPLO**<br>
-
-Entrada  | Salida
-------------- | -------------
-5 | 5 <br> 10 <br> 20 <br> 40 <br> 80 <br>
-1 | 1 <br> 2 <br> 4 <br> 8 <br> 16 <br>
