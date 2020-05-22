@@ -46,7 +46,7 @@ int main(){
 ```cpp
 int main(){
 	// Necesitamos un arreglo de tamaño 100 que contenga los numeros del 0 al 99
-	int a[10];
+	int a[100];
 	for(int i=0;i<100;i++){ // Recorremos los indices
 		a[i]=i; // Llenamos cada posicion del arreglo
 	}
