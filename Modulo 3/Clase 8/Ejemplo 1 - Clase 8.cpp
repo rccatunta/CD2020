@@ -6,9 +6,8 @@ int main(){
 	//Recorremos la matriz
 	for(int i=0;i<4;i++){//Primer ciclo recorre las filas
 		for(int j=0;j<8;j++){//Segundo ciclo recorre las columnas
-			matriz[i][j]=0;
+			matriz[i][j]=;
 		}
 	}
-	cout<<ma<<endl;
     return 0;
 }
