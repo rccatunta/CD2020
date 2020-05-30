@@ -53,4 +53,4 @@ int main(){
 }
 ```
 ### Ejercicio 1
-Debes realizar un programa que cuente cuantas **consonantes** tiene una palabra. Debes resolver el siguiente ejercicio en el juez virtual. [Consontes](https://jv.umsa.bo/problem.php?id=1959).
+Debes realizar un programa que cuente cuantas **consonantes** tiene una palabra. Debes resolver el siguiente ejercicio en el juez virtual. [CONSONANTES](https://jv.umsa.bo/problem.php?id=1959).
