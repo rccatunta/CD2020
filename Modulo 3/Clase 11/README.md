@@ -43,7 +43,7 @@ int main(){
 **Debes realizar un programa que indique si una palabra es o no palindrome**. Una palabra es palindrome si se lee igual leida de izquierda a derecha y de derecha a izquierda. Debes resolver el siguiente ejercicio en el juez virtual. [PALINDROMES](https://jv.umsa.bo/problem.php?id=1960).
 ## String como una clase
 Desde la primera clase has notado que los strings no son iguales a los demas tipos de datos. Es que en realidad los strings son una **clase**. <br>
-Las clases son estructuras de programación que nos permiten representar una entidad de la vida real. Como por ejemplo en la imagen se muestra como seria la *Clase Perro*
+Las clases son estructuras de programación que nos permiten representar una entidad de la vida real. Como por ejemplo en la imagen se muestra como seria la *Clase Perro* <br>
 <img src="img/poo.png" width="400">
 >Las clases se caracterizan por tener **propiedades** y **metodos**, las propiedas nos muestran que es lo que tiene una clase y los métodos nos muestran que es lo que puede hacer la clase.
 ### Constructores
