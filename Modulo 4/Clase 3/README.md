@@ -51,10 +51,10 @@ int main(){
 	cout<<palabra<<endl;
 }
 ```
-### touper - Conversión a MAYÚSCULAS
+### toupper - Conversión a MAYÚSCULAS
 ```cpp
 #include <iostream>
-#include <ctype.h> // Libreria necesaria para usar touper
+#include <ctype.h> // Libreria necesaria para usar toupper
 using namespace std;
 int main(){
 	// Este ejercicio convertira el contenido de una palabra a MAYÚSCULAS
@@ -62,7 +62,7 @@ int main(){
 	cin>>palabra;
 	// Recorremos la palabra
 	for(int i=0;i<palabra.size();i++){
-		palabra[i] = touper(palabra[i]);// touper solo funciona con letras
+		palabra[i] = toupper(palabra[i]);// toupper solo funciona con letras
 	}
 	cout<<palabra<<endl;
 }
@@ -81,7 +81,7 @@ int main(){
 		// Ahora analizamos la ultima letra 
 		// Obtenemos el ASCII de la ultima letra
 		int ultima = int(contra[contra.size()-1]);
-		if(ultima>=48 and primera<=57){
+		if(ultima>=48 and ultima<=57){
 			segura = true;
 		}
 
