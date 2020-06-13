@@ -11,7 +11,7 @@ Ahora que ya entendemos para que sirven las funciones podemos entender que son:
 
 En otras ramas de la ciencia (matemática, física, química, sistemas industriales, electrónica, etc.) tambien existen funciones. Las funciones en otras ciencias, son en esencia, parecidas a las que se manejan en programación. Todas estas funciones pueden simplificarse en el siguiente diagrama:
 
-<img src="funcion.jpg" width="400">
+<img src="img/funcion.jpg" width="400">
 
 El diagrama anterior muestra 3 claros componentes
 - Entrada
@@ -81,7 +81,7 @@ int main(){
 ```
 ## Creando nuestras propias funciones
 ### Creación de Funciones
-<img src="funcion2.png" width="500">
+<img src="img/funcion2.png" width="500">
 
 ### Invocación de Funciones
-<img src="funcion3.png" width="500">
+<img src="img/funcion3.png" width="500">
