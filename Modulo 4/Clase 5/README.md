@@ -53,29 +53,3 @@ int main(){
 	}
 }
 ```
-### Ejercicio 2
-Realizar una funcion con la siguiente cabecera, que pueda obtener el resultado de elevar el primer número al segundo.
-```cpp
-int potencia(int a, int b)
-```
-### Ejemplo 3
-Un buen ejemplo de las funciones se da cuando queremos imprimir un arreglo, sabemos que esta tarea es repetitiva, asi que podemos simplificarla con una funcion.
-
-En esta ocasión tambien veremos un nuevo tipo de funciones, las funciones sin retorno, estos son tambien llamados métodos. Para realizar una función sin retorno se debe incluir a **void** como tipo de retorno, void es sinónimo de vacío.
-```cpp
-#include <iostream>
-using namespace std;
-
-void imprimir_arreglo(int arreglo[], int tam) {
-	for(int i=0;i<tam;i++){
-		cout<<arreglo[i]<< " ";
-	}
-	cout<<endl;
-}
-
-int main(){
-	int a[7] = {8,5,3,1,2,3,0};
-	imprimir_arreglo(a,7);
-	return 0;
-}
-```
