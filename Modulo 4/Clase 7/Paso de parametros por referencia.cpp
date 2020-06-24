@@ -15,7 +15,7 @@ int main() {
     cout<<"Valores al inicio" << endl;
     cout<<"a=" << a << endl;
     cout<<"b=" << b << endl;
-    cambio(a,b);
+    cambio(a,b);// swap hace lo mismo que la funcion cambio
     cout<<"Valores despues del cambio" << endl;
     cout<<"a=" << a << endl;
     cout<<"b=" << b << endl;
